@@ -9,7 +9,9 @@ ATPercent = CountAT/len(ShortSequence)*100
 print("There is %s percent AT in this sequence"%(ATPercent))
 
 # Complement DNA
+# Initialize complement value
 Complement = ""
+# Use for loop to go through each posiition and replace values
 for i in range(0, len(ShortSequence)):
 	if ShortSequence[i] == "A":
 		Complement=Complement+"T"
