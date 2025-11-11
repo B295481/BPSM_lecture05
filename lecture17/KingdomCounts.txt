@@ -1,0 +1,6 @@
+Group	count
+Fungi	16876
+Animals	14495
+Plants	4390
+Protists	1987
+Other	202
